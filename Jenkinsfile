@@ -6,6 +6,8 @@ pipeline {
                 echo 'Welcome to Jenkins World'
                 sh 'python --version'
                 sh 'python pipeline.py'
+                sh 'date'
+                sh 'pwd'
             }
         }
     }
